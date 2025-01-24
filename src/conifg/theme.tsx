@@ -4,30 +4,35 @@
 export const colors ={
     white: 'white',
     black: 'black',
-    primaryColor: 'rgb(51, 36, 100)',
+    red: 'rgb(200, 15, 15)',
+    green: '#27794D',
+    pending: '#FFF4C7',
+    pendingCardBg: '#FCF7E1',
+    pendingTextColor: '#7E6604',
+
+    primaryColor: '#006970',
     secondaryColor: 'rgb(51, 36, 100)',
     transparent: 'transparent',
     blurBackground: 'rgba(0, 0, 0, 0.80)',
     highlightBackground: 'rgba(0, 0, 0, 0.1)',
     statusBarColor: 'white',
-    blackTextColor: 'black',
-    blueTextColor: 'rgb(66, 109, 180)',
-    darkBlueTextColor: 'rgb(1, 0, 133)',
-    greyTextColor: 'rgb(85, 85, 85)',
-    tabGreyTextColor: 'rgb(59, 59, 59)',
-    placeHolderTextColor: 'rgb(78, 78, 78)',
-    greyBackgroundColor: 'rgb(236, 236, 236)',
-    greyButtonColor: 'rgb(115, 115, 115)',
-    greyButtonColor2: 'rgb(207, 207, 207)',
-    lineColor: 'rgb(146, 146, 146)',
-    lightLineColor: 'rgb(164, 164, 164)',
-    red: 'rgb(200, 15, 15)',
-    green: 'rgb(38, 143, 41)',
+
     greenTextColor: 'rgb(42, 162, 93)',
-    hightlightColor: 'rgba(0, 0, 0, 0.2)',
-    lightGreyColor: '#F4F4F4',
+    darkGreenTextColor: '#0C341F',
+    greyTextColor: '#4F4F4F',
+    blackTextColor: '#111111',
+    menuTextColor: 'rgba(29, 53, 87, 0.73)',
+
+    lightBlueBg: '#F0F5F5',
+
+    placeHolderTextColor: 'rgb(78, 78, 78)',
     greyLineColor: '#cccccc',
+    lightLineColor: '#E8E8E8',
+
     disabledGreyColor: 'rgb(164, 164, 164)',
+
+    inActiveIconColor: '#C0C5C2',
+    inActiveIconDarkColor: '#B0B0B0'
 };
 
 export const sizes = {

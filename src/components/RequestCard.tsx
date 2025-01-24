@@ -42,7 +42,7 @@ export default RequestCard;
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        padding: 20,
+        paddingHorizontal: 20,
     },
     labelView: {
         marginBottom: 8
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         color: colors.black
     },
     card: {
-        backgroundColor: 'yellow',
+        backgroundColor: colors.pendingCardBg,
         borderRadius: 10,
         padding: 10,
     },
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
     iconCard: {
-        backgroundColor: 'grey',
+        backgroundColor: colors.lightBlueBg,
         borderRadius: 10,
         padding: 10,
     },
